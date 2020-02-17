@@ -8,7 +8,7 @@ dotenv.config({ path: './config/config.env' });
 
 // Load models
 const Bootcamp = require('./models/Bootcamp');
-const Course = require('./models/Couse');
+const Course = require('./models/Course');
 
 // Connect to db
 mongoose.connect(process.env.MONGO_URI, {
